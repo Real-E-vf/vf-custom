@@ -1,22 +1,28 @@
 /* Global color applied to human message bubble and header */
 .vfrc-header {
-    background-color: #800000; /* Header background color */
-    color: white; /* Header text color */
-  }
-  
-  .vfrc-user-response .vfrc-message {
-    background-color: #800000; /* Human message bubble color */
-    color: white; /* Human message text color */
-  }
-  
-  /* Message bubbles with 3 curved edges and 1 slightly curved edge */
-  .vfrc-user-response .vfrc-message,
-  .vfrc-system-response .vfrc-message {
-    border-radius: 16px 16px 16px 8px; /* 3 rounded corners, 1 slightly curved */
+  background-color: #800000; /* Header background color */
+  color: white; /* Header text color */
+}
+
+.vfrc-user-response .vfrc-message {
+  background-color: #800000; /* Human message bubble color */
+  color: white; /* Human message text color */
+}
+
+/* Message bubbles with 3 curved edges and 1 slightly curved edge */
+.vfrc-user-response .vfrc-message
+{
+border-bottom-right-radius: 0;
+  padding: 10px; /* Optional: Adjust padding for better appearance */
+}
+
+.vfrc-system-response .vfrc-message {
+  background-color: #f0f0f0; /* Default background for assistant messages */
+  color: #333; /* Default text color for assistant messages */
+}
+
+.vfrc-system-response .vfrc-message
+{
+  border-bottom-left-radius: 0;
     padding: 10px; /* Optional: Adjust padding for better appearance */
-  }
-  
-  .vfrc-system-response .vfrc-message {
-    background-color: #f0f0f0; /* Default background for assistant messages */
-    color: #333; /* Default text color for assistant messages */
   }
