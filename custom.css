@@ -19,7 +19,7 @@
 /* Message bubbles with 3 curved edges and 1 slightly curved edge */
 .vfrc-user-response .vfrc-message
 {
-border-bottom-right-radius: 0;
+border-bottom-right-radius: 0px;
   padding: 10px; /* Optional: Adjust padding for better appearance */
 }
 
@@ -30,7 +30,7 @@ border-bottom-right-radius: 0;
 
 .vfrc-system-response .vfrc-message
 {
-  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0px;
     padding: 10px; /* Optional: Adjust padding for better appearance */
   }
 
